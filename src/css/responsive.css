@@ -1,0 +1,47 @@
+@media (max-width: 576px) {
+    .card {
+        width: 32.7rem;
+        height: 56.7rem;
+    }
+
+    .card .hero-image {
+        width: 32.7rem;
+        height: 16rem;
+    }
+
+    .info {
+        margin: 0;
+    }
+
+    .info .title {
+        margin-top: 3.2rem;
+        font-size: 2.2rem;
+    }
+
+    .info .description {
+        margin: 1.6rem 3.2rem 4.1rem 3.2rem;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    .plan-container {
+        margin: 0 2.4rem;
+    }
+
+    .plan-info {
+        margin-right: 4.2rem;
+    }
+
+    .plan-container .change-plan {
+        font-size: 1.3rem;
+    }
+
+    .info .btn {
+        width: 27.9rem;
+        margin-top: 4rem;
+    }
+
+    .info .cancel-order {
+        margin-top: 2.4rem;
+    }
+}
