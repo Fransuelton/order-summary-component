@@ -1,38 +1,29 @@
 # Frontend Mentor - Order summary card solution
 
-Esta é uma solução para o Desafio [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## 📸 Imagens do Projeto
+## The challenge
 
-### Desktop
+Users should be able to:
 
-![](design/desktop-design.jpg)
+- See hover states for interactive elements
 
-### Mobile
+## Screenshot
 
-![](design/mobile-design.jpg)
+![](./design/desktop-design.jpg)
 
-## 💻 Tecnologias Utilizadas
+## Links
 
+- [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/order-summary-card-with-html-css-and-flex-gtGJzXrNpY)
+- [Deployment GitHub Pages](https://fransuelton.github.io/order-summary-component/)
 
-<img width="60px" height="60px" title="HTML5" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /><img width="60px" height="60px" title="CSS3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+## Built with
 
-## ☕ Como utilizar:
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
 
-1° Clone o repositório
-```
-git clone url-do-repositorio
-```
-2° Ou acesse o deploy do projeto [Clicando aqui](https://fransuelton.github.io/landing-page-agencia-xyz/).
+## Author
 
-## 📫 Contribuindo para o Projeto
-
-Para contribuir com esse projeto siga estas etapas:
-
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <nome_branch>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
-5. Crie a solicitação de pull.
-
-## Obrigado por visitar meu repositório!❤️
+- Frontend Mentor - [@Fransuelton](https://www.frontendmentor.io/profile/Fransuelton)
+- LinkedIn - [@Fransuelton](https://www.linkedin.com/in/fransuelton/)
