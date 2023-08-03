@@ -1,29 +1,23 @@
-html {
-    font-size: 62.5%;
-}
-
-body {
-    font-family: 'Red Hat Display', sans-serif;
-    background: url(../images/pattern-background-desktop.svg) no-repeat var(--primary-color);
-}
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
 .container {
+    background: url(../images/pattern-background-desktop.svg) no-repeat var(--background);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-.container .card {
-    background-color: var(--very-neutral-blue);
-    width: 400px;
-    border-radius: 2.5rem;
+.card {
+    background-color: var(--white);
+    width: 45rem;
+    height: 69.7rem;
+    border-radius: 2rem;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.15);
 }
 
-.container .card .hero-image img {
-    border-top-left-radius: 2.5rem;
-    border-top-right-radius: 2.5rem;
-    width: 100%;
+.card .hero-image {
+    border-radius: 2rem 2rem 0 0;
 }
 
 .info {
@@ -31,102 +25,91 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    gap: 20px;
+    text-align: center;
+    margin: 4.5rem 4.8rem 4.8rem 4.8rem;
 }
 
 .info .title {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     font-weight: 900;
-    color: var(--dark-blue);
+    color: var(--title-color);
 }
 
 .info .description {
-    font-size: 1.5rem;
-    color: var(--desaturated-blue);
-    font-weight: 500;
-    text-align: center;
-    margin: 0 6rem;
-}
-
-.info .plan-area {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.info .plan-area .plan-info {
-    margin-left: 20px;
-    margin-right: 70px;
-}
-
-.info .plan-area .plan-info .type {
     font-size: 1.6rem;
-    font-weight: 700;
-    color: var(--dark-blue);
-}
-
-.info .plan-area .plan-info .price {
-    font-size: 1.5rem;
+    color: var(--text-color);
     font-weight: 500;
-    color: var(--desaturated-blue);
+    margin-top: 1.7rem;
 }
 
-.info .plan-area a {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--secundary-color)
-}
-
-.info .plan-area a:hover{
-    text-decoration: none;
-}
-
-a:active{
-    color: var(--secundary-color);
-}
-
-.info .payment-area {
+.plan-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    align-items: center;
+    margin-top: 4.5rem;
+    border-radius: 1.1rem;
 }
 
-.info .payment-area .btn {
+.plan-info {
+    margin-left: 2rem;
+    margin-right: 6.8rem;
+}
+
+.plan-info .type {
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: var(--title-color);
+}
+
+.plan-info .price {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.plan-container .change-plan {
     cursor: pointer;
-    background-color: var(--secundary-color);
-    border-radius: 10px;
-    border-style: none;
-    color: #fff;
-    width: 250px;
-    height: 40px;
-    margin-bottom: 15px;
+    font-size: 1.4rem;
+    text-decoration-line: underline;
     font-weight: 700;
-    box-shadow: 1px 4px 7px 1px rgba(000, 000, 000, 0.2);
-    transition: 0.2s;
+    color: var(--button-and-change)
 }
 
-.info .payment-area .btn:hover{
-    background-color: hsl(245, 75%, 52%, 0.8);
-}
-
-.info .payment-area .cancel-order {
-    font-size: 1.3rem;
-    color: var(--desaturated-blue);
-    font-weight: 700;
-    margin-bottom: 20px;
+.plan-container .change-plan:hover {
+    color: var(--hover);
     text-decoration: none;
 }
 
-.info .payment-area .cancel-order:hover{
-    color: var(--dark-blue);
+.plan-container .change-plan:hover {
+    text-decoration: none;
 }
 
-@media (max-width: 476px) {
-    .container .card {
-        width: 350px;
-    }
+.info .btn {
+    cursor: pointer;
+    background-color: var(--button-and-change);
+    border-radius: 1.1rem;
+    box-shadow: 0 2rem 2rem 0 rgba(56, 42, 225, 0.19);
+    border-style: none;
+    width: 35.4rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--white);
+    margin-top: 5.7rem;
+}
+
+.info .btn:hover {
+    background-color: var(--hover);
+}
+
+.info .cancel-order {
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    font-weight: 900;
+    margin-top: 3.2rem;
+}
+
+.info .cancel-order:hover {
+    color: var(--title-color);
 }
